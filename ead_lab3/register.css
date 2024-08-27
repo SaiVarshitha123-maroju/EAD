@@ -1,0 +1,17 @@
+h1{
+    font-style: italic;
+    text-align: center;
+    color: violet;
+}
+.cssname{
+    text-align: center;
+    font-size: 25px;
+}
+#submission{
+    font-style: oblique;
+    font-size: 30px;
+    color: rgb(17, 18, 18);
+}
+button{
+    color: aqua;
+}

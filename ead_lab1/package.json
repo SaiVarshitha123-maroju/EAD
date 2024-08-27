@@ -1,0 +1,20 @@
+{
+  "name": "ead_lab1",
+  "version": "1.0.0",
+  "main": "EntryPoint.js",
+  "scripts": {
+    "start": "nodemon EntryPoint.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
