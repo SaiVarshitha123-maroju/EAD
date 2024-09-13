@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Calculator</title>
+        <link rel="stylesheet" href="calci.css">
+    </head>
+    <body>
+        <div class="Calculator_container">
+            <div class="display">
+                <input type="text" id="display" disabled>
+            </div>
+            <div class="buttons">
+                <button onclick="clear()">C</button>
+                <button onclick="del()">
+                    <img id="image" alt="backspace" src="backspace.png"/>
+                </button>
+                <button onclick="appendtodisplay('/')">/</button>
+                <button onclick="appendtodisplay('*')">*</button>
+                <button onclick="appendtodisplay('+')">+</button>
+                <button onclick="appendtodisplay('-')">-</button>
+                <button onclick="appendtodisplay('0')">0</button>
+                <button onclick="appendtodisplay('1')">1</button>
+                <button onclick="appendtodisplay('2')">2</button>
+                <button onclick="appendtodisplay('3')">3</button>
+                <button onclick="appendtodisplay('4')">4</button>
+                <button onclick="appendtodisplay('5')">5</button>
+                <button onclick="appendtodisplay('6')">6</button>
+                <button onclick="appendtodisplay('7')">7</button>
+                <button onclick="appendtodisplay('8')">8</button>
+                <button onclick="appendtodisplay('9')">9</button>
+                <button onclick="calcRes()">=</button>
+            </div>
+        </div>
+        <script src="calci.js"></script>
+    </body>
+</html>
