@@ -7,7 +7,7 @@ body {
 }
 
 .chessboard {
-    display: grid;
+    display: grid;     
     grid-template-rows: repeat(8, 50px);
 }
 
